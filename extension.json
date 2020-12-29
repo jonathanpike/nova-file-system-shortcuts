@@ -5,8 +5,8 @@
     "description": "Adds shortcuts for common file system actions",
     "version": "0.1",
     "categories": ["commands"],
-    "repository": "https://github.com/jonathanpike/nova-rails-navigation",
-    "bugs": "https://github.com/jonathanpike/nova-rails-navigation/issues",
+    "repository": "https://github.com/jonathanpike/nova-file-system-shortcuts",
+    "bugs": "https://github.com/jonathanpike/nova-file-system-shortcuts/issues",
     
     "main": "main.js",
     
