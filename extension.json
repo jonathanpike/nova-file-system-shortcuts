@@ -1,0 +1,29 @@
+{
+    "identifier": "jonathanpike.FileSystemShortcuts",
+    "name": "File System Shortcuts",
+    "organization": "Jonathan Pike",
+    "description": "Adds shortcuts for common file system actions",
+    "version": "0.1",
+    "categories": ["commands"],
+    "repository": "https://github.com/jonathanpike/nova-rails-navigation",
+    "bugs": "https://github.com/jonathanpike/nova-rails-navigation/issues",
+    
+    "main": "main.js",
+    
+    "entitlements": {
+        "filesystem": "readwrite"
+    },
+    
+    "commands": {
+        "command-palette": [
+            {
+                "title": "Delete File",
+                "command": "file-system-shortcuts.deleteFile"
+            },
+            {
+                "title": "Rename File",
+                "command": "file-system-shortcuts.renameFile"
+            }
+        ]
+    }
+}
